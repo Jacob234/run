@@ -21,18 +21,11 @@
         </style>
     </head>
     <body>
-        <nav>
-    <span class="title">Jinja!</span>
-    <a href="#">Home</a> |
-    <a href="#">About</a> |
-    <a href="#">Contact Us</a>
-    
-        </nav>
-        <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav">
   {{ nav_link('home', 'Home') }}
   {{ nav_link('about', 'About') }}
   {{ nav_link('contact', 'Contact Us') }}
-</ul>
+    </ul>
         <div id="main">
             <h2>This is part of my base template</h2>
             <br>
